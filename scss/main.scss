@@ -1,8 +1,41 @@
+$sc: #f16464;;
 body{
-  background: gray;
   color: white;
   font-family: sans-serif;
   margin: 0;
-  height: 100%;
+  height: 100vh;
+  background-image: url("/bg1.jpg");
+
+  background-size: cover;
+  background-position: center;
+  li{
+    list-style: none;
+  }
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  .lg-heading{
+    font-size: 4rem;
+    margin: 20vh 0vh 0vh 10vh;
+  }
+  .text-secondary{
+    color: $sc;
+  }
+  .sm-heading{
+    font-size: 2rem;
+    margin: 0vh 0vh 0vh 10vh;
+  }
+  .icons{
+    margin: 10vh 0vh 0vh 10vh;
+    font-size: 2rem;
+    a{
+      padding: 0.4rem;
+    }
+    a:hover{
+      color:$sc;
+
+    }
+
+  }
 }
- 
